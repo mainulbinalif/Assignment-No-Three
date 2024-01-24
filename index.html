@@ -40,5 +40,123 @@
       }
     </style>
   </head>
-  <body class="font-manrope"></body>
+  <body class="font-manrope">
+    <!-- Header Section -->
+    <header class="container mx-auto">
+      <!-- Navbar Section -->
+      <nav class="my-4 lg:my-8">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a class="font-bold text-primary">Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+                <li class="relative">
+                  <a class="lg:left-52"
+                    ><img src="Images/search.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-4xl font-extrabold"
+              ><h2>Hockey<span class="text-primary">’</span>s</h2></a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 relative">
+              <li><a class="font-bold text-primary">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+              <li class="lg:left-full">
+                <a><img src="Images/search.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end lg:pr-6">
+            <a class="btn bg-primary text-white">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
+      <!-- Banner Section -->
+      <div class="banner relative lg:my-14">
+        <div class="carousel w-full">
+          <!-- slide-1 -->
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/Banner-1.png" class="w-full" />
+            <div
+              class="absolute flex gap-3 lg:gap-6 transform translate-y-1/2 right-40 top-32 lg:left-5 lg:right-5 lg:top-1"
+            >
+              <a
+                href="#slide2"
+                class="btn bg-black border-none text-white btn-circle"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn bg-black border-none text-white btn-circle"
+                >❯</a
+              >
+            </div>
+          </div>
+          <!-- Slide-2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <img
+              class="rounded-2xl w-full"
+              src="Images/Banner-2.jpg"
+              class="w-full"
+            />
+            <div
+              class="absolute flex gap-3 lg:gap-6 transform translate-y-1/2 right-40 top-32 lg:left-5 lg:right-5 lg:top-1"
+            >
+              <a
+                href="#slide1"
+                class="btn bg-black border-none text-white btn-circle"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn bg-black border-none text-white btn-circle"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="lg:absolute lg:right-8 lg:top-3/4">
+          <div class="bg-black p-8 max-w-xl space-y-4 rounded-xl">
+            <h2 class="text-xl text-white font-extrabold">
+              Meet all the heroes from the field
+            </h2>
+            <p class="text-[#AFAFAF]">
+              Embark on a thrilling journey as we introduce you to the unsung
+              heroes and celebrated stars gracing the hockey field.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
